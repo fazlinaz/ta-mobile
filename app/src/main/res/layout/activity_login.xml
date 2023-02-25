@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:padding="10dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/bg_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:hint="Email"
+                android:id="@+id/email"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/bg_corner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="true"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:id="@+id/password"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/bg_corner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_register"
+        android:text="Login"
+        android:textColor="#FFF" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegister"
+        android:layout_below="@+id/btnLogin"
+        android:layout_margin="10dp"
+        android:text="Register"
+        android:textColor="#FFF"
+        android:background="@drawable/bg_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
