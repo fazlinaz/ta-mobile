@@ -10,5 +10,12 @@
     <color name="pink1">#c99493</color>
     <color name="pink">#bd7171</color>
     <color name="ligh">#728FCE</color>
+    <color name="yellow">#ffff00</color>
+    <color name="orange">#FBB917</color>
+    <color name="red">#AF0000</color>
+    <color name="abu">#C0C0C0</color>
+
+
+
 
 </resources>

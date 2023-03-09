@@ -96,6 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+
             <EditText
                 android:hint="Tanggal Mulai Kegiatan :"
                 android:layout_width="match_parent"
@@ -349,12 +350,12 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/simpan"
+                android:id="@+id/simpan1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/bb"
                 android:layout_marginHorizontal="15dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="20dp"
                 android:background="@color/pink"
                 android:text="Simpan"
                 android:textColor="@color/white"
