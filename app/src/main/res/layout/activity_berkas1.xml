@@ -4,30 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/pink1"
     tools:context=".activity.BerkasActivity1">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <LinearLayout
+            android:background="@color/ligh"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="150dp"
+        android:src="@drawable/profile"
+        android:layout_width="100dp"
+        android:layout_height="120dp"/>
 
         <TextView
-            android:id="@+id/Berkas"
-            android:text="Upload Berkas"
-            android:layout_marginTop="15dp"
-            android:textStyle="bold"
-            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginVertical="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="123dp"
+            android:text="IZIN KERAMAIAN"
             android:textColor="@color/black"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:textStyle="bold"
+            android:textSize="21sp"/>
 
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tlpy"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="170dp"
             android:layout_marginHorizontal="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -148,7 +161,7 @@
                 android:layout_height="wrap_content">
 
                 <RelativeLayout
-                    android:background="@drawable/bg_card_view"
+                    android:background="@color/ligh"
                     android:paddingVertical="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -183,7 +196,7 @@
                 android:layout_height="wrap_content">
 
                 <RelativeLayout
-                    android:background="@drawable/bg_card_view"
+                    android:background="@color/ligh"
                     android:paddingVertical="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -218,7 +231,7 @@
                 android:layout_height="wrap_content">
 
                 <RelativeLayout
-                    android:background="@drawable/bg_card_view"
+                    android:background="@color/ligh"
                     android:paddingVertical="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -253,7 +266,7 @@
                 android:layout_height="wrap_content">
 
                 <RelativeLayout
-                    android:background="@drawable/bg_card_view"
+                    android:background="@color/ligh"
                     android:paddingVertical="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -288,7 +301,7 @@
                 android:layout_height="wrap_content">
 
                 <RelativeLayout
-                    android:background="@drawable/bg_card_view"
+                    android:background="@color/ligh"
                     android:paddingVertical="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -323,7 +336,7 @@
                 android:layout_height="wrap_content">
 
                 <RelativeLayout
-                    android:background="@drawable/bg_card_view"
+                    android:background="@color/ligh"
                     android:paddingVertical="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -356,7 +369,7 @@
                 android:layout_below="@+id/bb"
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginTop="20dp"
-                android:background="@color/pink"
+                android:background="@drawable/bg_register"
                 android:text="Simpan"
                 android:textColor="@color/white"
                 android:textStyle="bold"/>

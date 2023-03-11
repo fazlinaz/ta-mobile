@@ -8,7 +8,7 @@
     tools:context=".activity.ProfileActivity1">
 
         <LinearLayout
-            android:background="@color/red"
+            android:background="@color/ligh"
             android:layout_width="match_parent"
             android:layout_height="270dp"
             android:orientation="vertical">
@@ -18,10 +18,9 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/profile"/>
+                android:src="@drawable/pro"/>
 
             <TextView
-
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
@@ -39,7 +38,7 @@
         android:layout_marginTop="300dp"
         android:orientation="vertical"
         android:layout_marginHorizontal="10dp"
-        android:background="@color/red"
+        android:background="@drawable/bg_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -95,7 +94,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:background="@color/red"
+        android:background="@drawable/bg_register"
         android:text="LOGOUT"
         android:textColor="#FFF" />
 
